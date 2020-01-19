@@ -13,7 +13,7 @@
 <body>
     <div class="box">
         <header>
-            <h1 class="top" id="scarlett">SCARLETT</h1>
+            <h1 class="top" id="scarlett">BABY</h1>
             <div id="trapezoid">
                 <h1 class="top" id="turns">turns</h1>
                 <h1 class="top" id="three">3</h1>
@@ -182,9 +182,12 @@
             clearInput()
             // set new submission
             console.log(user);
-            localStorage.setItem("user", JSON.stringify(user));
+            var userStr = JSON.stringify(user)
+            localStorage.setItem("user", userStr);
 
         }
+
+
 
     });
 
